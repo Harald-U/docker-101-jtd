@@ -1,35 +1,33 @@
 ---
-title: Home
-layout: home
+title: Overview
+layout: default
+last_modified_date: 2026-03-12
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+This workshop is based on the [Docker 101 Tutorial](https://www.docker.com/101-tutorial/){:target="_blank"}, created by Docker and others. I wanted to focus on different aspects hence the fork. 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+For this workhop I used the original Docker 101 Todo app and a great deal of the original texts from the [Docker 101 Github repo](https://github.com/docker/getting-started){:target="_blank"}. A big thanks to Docker, Inc. for placing their work under an Apache 2.0 license.
 
-More specifically, the created site:
+## Objectives
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+In this workshop, you will learn some Docker or Container basics, like:
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+* Creating a Dockerfile
+* Creating a container image
+* Starting a container
+* Container networking
+* Mounting external "volumes" onto containers
+* A little bit about docker-compose
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## Prerequisites
 
-To get started with creating a site, simply:
+* [git](https://git-scm.com/downloads){:target="_blank"}
+* [Docker](https://docs.docker.com/desktop/){:target="_blank"}
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+Docker can be Docker CE for Linux or Docker Desktop for Mac, Windows, or Linux. We will not cover installation of Docker (Desktop) in this workshop.  
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+> **Note: bwLehrpool** has all the required software installed. Change into the PERSISTENT directory before cloning the repository in the next step.
 
-----
+We are going to deploy a ToDo app based on Node.js. It can run "stand-alone" using a built in SQLite database or it can connect with a external MySQL database. 
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate

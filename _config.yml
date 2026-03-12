@@ -1,8 +1,40 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Docker 101
+description: An introduction to Docker and Containers
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+baseurl: "/docker-101-jtd"
+url: "https://harald-u.github.io"
+
+# Disable .html in page URLs
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+# Enable or disable the side/mobile menu globally
+nav_enabled: true
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+heading_anchors: true
+
+# Footer content
+# appears at the bottom of every page's main content
+footer_content: 
+last_edit_timestamp: true 
+last_edit_time_format: "%d.%m.%Y" 
+   
+nav_external_links:
+  - title: Überblick Labs 
+    url: https://harald-u.github.io/Hands-On-Labs/
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false    
