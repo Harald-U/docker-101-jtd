@@ -1,7 +1,11 @@
 ---
 layout: default
-title: 6. Docker Compose
+parent: Overview
+nav_order: 6
+title: Docker Compose
 ---
+
+# Docker Compose
 
 If you want to follow the instructions in this section, you need to remove the running todo-app and mysql containers first:
 
@@ -10,7 +14,7 @@ docker rm -f todo
 docker rm -f mysql
 ```
 
-<hr>
+---
 
 **Docker Compose** is a tool for defining and running multi-container applications (workloads). Compose simplifies the control of your entire application stack, making it easy to manage services, networks, and volumes in a single, comprehensible YAML configuration file. Then, with a single command, you create and start all the services from your configuration file.
 

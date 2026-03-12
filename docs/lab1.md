@@ -47,20 +47,13 @@ In order to build a container image, we need to use a Dockerfile. A Dockerfile i
    What do the lines in the Dockerfile mean?
 
       
-      <dt>FROM</dt>
-      <dd>This the base image you are building upon. We want to use an image with Node.js version 18 built on Alpine Linux.</dd>
-      <dt>WRKDIR</dt>
-      <dd>This will set the working directory within the container image.</dd>  
-      <dt>COPY<dt>
-      <dd>Copy the source code from your notebook into the container image.</dd>
-      <dt>RUN</dt>
-      <dd>The RUN command will be executed during the BUILD of the container image. It uses 'yarn' to resolve the Node.js dependencies.</dd>
-      <dt>EXPOSE<dt>
-      <dd>This makes the port your application is using available so that we can connect to it from outside the container.</dd>
-      <dt>CMD</dt>
-      <dd>This is the start command of your application, executed when the container is run.</dd>   
-
-   .
+   * **FROM** : This the base image you are building upon. We want to use an image with Node.js version 18 built on Alpine Linux.
+   * **WRKDIR** : This will set the working directory within the container image.
+   * **COPY** : Copy the source code from your notebook into the container image.
+   * **RUN** : The RUN command will be executed during the * BUILD of the container image. It uses 'yarn' to resolve the Node.js dependencies.
+   * **EXPOSE** :    This makes the port your application is using available so that we can connect to it from outside the container.
+   * **CMD** : This is the start command of your application, executed when the container is run.
+   
 
 
 1. If you haven't already done so, open a terminal and go to the app directory with the Dockerfile. Now build the container image using the docker build command.
@@ -140,7 +133,7 @@ Now that we have an image, let's run the application! To do so, we will use the 
 
    If you repeat the command to list all container images (*docker image ls*) you should see an indicator that your image is in use, now.
 
-   <img src="{{ site.baseurl }}/assets/images/docker-image-ls.png" alt="docker image ls" width="400">
+   <img src="{{ site.baseurl }}/assets/images/docker-image-ls.png" alt="docker image ls" width="600">
 
 
 ---

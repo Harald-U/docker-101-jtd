@@ -1,7 +1,11 @@
 ---
 layout: default
-title: 5. Image Building Best Practises
+parent: Overview
+nav_order: 5
+title: Image Building Best Practises
 ---
+
+# Image Building Best Practises
 
 Here is some useful information and best practises for Docker Images and Image Building.
 

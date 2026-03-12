@@ -1,7 +1,11 @@
 ---
 layout: default
-title: 7. Tips and useful commands
+parent: Overview
+nav_order: 7
+title: Tips and useful commands
 ---
+
+# Tips and useful commands
 
 ## Commands
 

@@ -1,7 +1,11 @@
 ---
 layout: default
-title: 2. Update the app, build a new image
+parent: Overview
+nav_order: 2
+title: Update the app, build a new image
 ---
+
+# Update the app, build a new image
 
 At this point, you should have a running todo list manager with a few items. Now, let's make a few changes and learn about managing our containers.
 

@@ -1,7 +1,11 @@
 ---
 layout: default
-title: 4. Add MySQL DB, Multi-Container apps
+parent: Overview
+nav_order: 4
+title: Add MySQL DB, Multi-Container apps
 ---
+
+# Add MySQL DB, Multi-Container apps
 
 ## Multi-Container Apps
 
