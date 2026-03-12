@@ -273,4 +273,4 @@ By understanding a little bit about how images are structured, we can build imag
 
 ---
 
-**Next Step:** [Docker Compose](lab6.md)
+**Next Step:** [Docker Compose]({{ site.baseurl }}/docs/lab6/)

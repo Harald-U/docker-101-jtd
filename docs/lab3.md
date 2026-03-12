@@ -144,4 +144,4 @@ In the next step, you will learn how to add an external database (MySQL) to the 
 
 ---
 
-**Next Step:** [Add MySQL DB, Multi-Container apps](lab4.md) 
+**Next Step:** [Add MySQL DB, Multi-Container apps]({{ site.baseurl }}/docs/lab4/) 

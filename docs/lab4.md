@@ -151,4 +151,4 @@ At this point, we have an application that now stores its data in an external da
 
 ---
 
-**Next Step:** [Image Building Best Practises](lab5.md) 
+**Next Step:** [Image Building Best Practises]({{ site.baseurl }}/docs/lab5/) 

@@ -279,4 +279,4 @@ There are more possibilities with environment variables and .env files in the [D
 ----
 **Congratulations!** This concludes the workshop! You may want to have a look at the last topic:
 
-**Last Topic:** [Tips and useful commands](lab7.md) 
+**Last Topic:** [Tips and useful commands]({{ site.baseurl }}/docs/lab7/) 

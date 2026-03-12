@@ -109,4 +109,4 @@ While we were able to build an update, there were two things you might have noti
 
 ---
 
-**Next Step:** [Persisiting the data, Volumes](lab3.md) 
+**Next Step:** [Persisiting the data, Volumes]({{ site.baseurl }}/docs/lab3/) 
