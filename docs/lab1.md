@@ -138,4 +138,4 @@ Now that we have an image, let's run the application! To do so, we will use the 
 
 ---
 
-**Next Step:** [Update the app, build a new image]({{ site.baseurl }}/docker-101-jtd/docs/lab2/) 
+**Next Step:** [Update the app, build a new image]({{ site.baseurl }}/docs/lab2/) 
